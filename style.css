@@ -74,7 +74,7 @@ main{
 }
 
 .tipos{
-    display: flex;
+    display: inline;
     align-items: center;
     justify-content: center;
 }
@@ -89,7 +89,7 @@ h3{
     margin-left: 15%;
 }
 
-.fotopizza{
+.fotos{
     width: 70%;
     margin-right: 15%;
     margin-left: 15%;
@@ -97,7 +97,7 @@ h3{
 }
 
 
-.pizzas {
+.produtos {
     margin-right: 5%;
     margin-left: 5%;
     padding-top: 10px;
@@ -124,13 +124,6 @@ h6 {
     color: #28a967;
     padding-bottom: 5px;
     border-bottom: 2px solid #71718547;
-}
-
-h7 {
-    font-size: 14px;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #28a967;
-    padding-bottom: 5px;
 }
 
 /* MAIN */
