@@ -5,18 +5,26 @@
         font-size:22px;
     }
 
+    .menu{
+        height: 50px;
+    }
+
+    .menu img{
+        height: 35px;
+    }
+
 }
 
 
 /*Dispostivos Médios (Tablets deitados, 768px para cima) */
 @media only screen and (min-width: 768px) {
 
-    .tipo{
+    .tipos{
         margin-left: 20%;
         margin-right: 20%;
     }
 
-    .pizzas{
+    .produtos{
         margin-left: 20%;
         margin-right: 20%;
     }
@@ -38,12 +46,12 @@
 /* Dispostivos Largos (laptops/desktops, 992px para cima) */
 @media only screen and (min-width: 992px) {
 
-    .tipo{
+    .tipos{
         margin-left: 20%;
         margin-right: 20%;
     }
 
-    .pizzas{
+    .produtos{
         margin-left: 20%;
         margin-right: 20%;
     }
@@ -65,12 +73,12 @@
 /* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
 @media only screen and (min-width: 1200px) {
     
-    .tipo{
+    .tipos{
         margin-left: 20%;
         margin-right: 20%;
     }
 
-    .pizzas{
+    .produtos{
         margin-left: 20%;
         margin-right: 20%;
     }
