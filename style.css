@@ -44,7 +44,7 @@ p {
 nav {
   width: 100%;
   height: auto;
-  padding: 8px 0px;
+  padding: 6px 0px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -52,5 +52,5 @@ nav {
 }
 
 nav img {
-  height: 48px;
+  height: 42px;
 }
