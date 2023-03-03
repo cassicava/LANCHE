@@ -11,8 +11,23 @@
 
   color: #ffffffee;
   font-family: Helvetica, Arial, sans-serif;
+  
   scroll-behavior: smooth;
+
   /* border: 1px solid red; */
+}
+
+body::-webkit-scrollbar{
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: rgb(194, 33, 33);
+  border-radius: 20px;
 }
 
 body {
