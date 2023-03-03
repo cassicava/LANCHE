@@ -16,8 +16,8 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
+  width: auto;
+  height: auto;
   background-color: #f1f1f1;
 }
 
@@ -51,11 +51,11 @@ header p {
 
 nav {
   display: flex;
+  position: sticky;
+  top: 0px;
   align-items: center;
   justify-content: space-evenly;
 
-  position: sticky;
-  top: 0;
 
   width: 100%;
   height: auto;
@@ -80,6 +80,8 @@ main {
   display: flex;
   flex-direction: column;
   margin: 10px;
+  width: auto;
+  height: auto;
 }
 
 .tipos {
