@@ -88,14 +88,14 @@ main {
   align-items: center;
   justify-content: center;
   
-  margin: 20px;
+  margin: 30px 10px 10px 10px;
 }
 
 h2 {
   text-align: center;
   color: #131313;
   font-size: 1.6em;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 
   width: 80%;
 
@@ -104,4 +104,32 @@ h2 {
 
 .fotos{
   width: 80%;
+}
+
+/* C A R D A P I O */
+
+.produtos {
+margin: 10px;
+border-bottom: 1px solid #131313;
+}
+
+h4 {
+  font-size: 1em;
+  color: #131313;
+  padding: 5px 0px;
+  text-transform: bold;
+}
+
+h5 {
+  font-size: 0.8em;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #585858;
+  padding: 5px 0px;
+}
+
+h6 {
+  font-size: 0.8em;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #28a967;
+  padding: 5px 0px 10px 0px;
 }
