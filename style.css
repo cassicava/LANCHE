@@ -62,7 +62,7 @@ nav {
   padding: 6px 0px;
 
   background: rgba(255, 255, 255, 0.5);
-  box-shadow: 0 8px 16px 0 #1313134e;
+  box-shadow: 0 8px 16px 0 #13131378;
 
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -89,7 +89,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+
   margin: 30px 10px 10px 10px;
 }
 
@@ -104,15 +104,15 @@ h2 {
   border-bottom: 1px solid #000000;
 }
 
-.fotos{
+.fotos {
   width: 80%;
 }
 
 /* C A R D A P I O */
 
 .produtos {
-margin: 10px;
-border-bottom: 1px solid #131313;
+  margin: 10px;
+  border-bottom: 1px solid #131313;
 }
 
 h4 {
@@ -121,7 +121,7 @@ h4 {
   letter-spacing: 1px;
   padding: 5px 0px;
 
-  text-transform: bold;
+  font-weight: bolder;
 }
 
 h5 {
@@ -138,4 +138,60 @@ h6 {
   letter-spacing: 1px;
 
   padding: 5px 0px 10px 0px;
+}
+
+.obs {
+  border: none;
+}
+
+/* R O D A P E */
+
+footer {
+  width: auto;
+  height: auto;
+
+  padding: 12px 0px 70px 0px;
+
+  background: rgb(194, 33, 33);
+  background: linear-gradient(135deg,
+      rgba(194, 33, 33, 1) 0%,
+      rgba(140, 20, 20, 1) 100%);
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.4em;
+  letter-spacing: 4px;
+  padding: 5px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1em;
+  padding: 5px;
+}
+
+/* B O T A O */
+
+.botao {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+
+  bottom: 5px;
+  left: 0px;
+}
+
+button {
+  font-size: 1.4em;
+  font-weight: bolder;
+  letter-spacing: 4px;
+  padding: 12px 30px;
+
+  background-color: #128C7E;
+  border: 5px solid #075E54;
+  border-radius: 100px;
 }
