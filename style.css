@@ -17,6 +17,8 @@
   /* border: 1px solid red; */
 }
 
+/* S C R O L L B A R  */
+
 body::-webkit-scrollbar{
   width: 10px;
 }
@@ -29,6 +31,8 @@ body::-webkit-scrollbar-thumb{
   background-color: rgb(194, 33, 33);
   border-radius: 20px;
 }
+
+/* B O D Y */
 
 body {
   width: auto;
