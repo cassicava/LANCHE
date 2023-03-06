@@ -198,8 +198,10 @@ footer p {
 
 footer a {
   display: block;
+  
   text-align: center;
   font-size: 1em;
+  padding: 5px;
 } 
 
 /* B O T A O */
