@@ -190,12 +190,17 @@ h3 {
   padding: 5px;
 }
 
-footer p,
-.fale_comigo {
+footer p {
   text-align: center;
   font-size: 1em;
   padding: 5px;
 }
+
+.fale_comigo {
+  text-align: center;
+  font-size: 1em;
+  padding: 5px;
+} 
 
 /* B O T A O */
 
