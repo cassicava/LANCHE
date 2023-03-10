@@ -28,7 +28,8 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(194, 33, 33);
+  background-color: #f1f1f1;
+  border: 2px solid #000000;
   border-radius: 20px;
 }
 
@@ -195,14 +196,6 @@ footer p {
   font-size: 1em;
   padding: 5px;
 }
-
-footer a {
-  display: block;
-  
-  text-align: center;
-  font-size: 1em;
-  padding: 5px;
-} 
 
 /* B O T A O */
 
